@@ -1,0 +1,31 @@
+{
+  "Id": "lArh",
+  "Name": "httpContext_Connection",
+  "Properties": [
+    {
+      "Id": "QNy8",
+      "Name": "Id",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "QqX9",
+      "Name": "RemoteIpAddress",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "sqXc",
+      "Name": "RemotePort",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "RGTo",
+      "Name": "LocalIpAddress",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "Lr4S",
+      "Name": "LocalPort",
+      "Type": "Compiled:Int64"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "Id": "vLT5",
+  "Name": "httpContext_Item",
+  "Properties": [
+    {
+      "Id": "fx3n",
+      "Name": "key",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "01XI",
+      "Name": "Value",
+      "Type": "Compiled:String"
+    }
+  ]
+}

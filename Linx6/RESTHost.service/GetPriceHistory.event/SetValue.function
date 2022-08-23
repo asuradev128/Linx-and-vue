@@ -1,0 +1,59 @@
+{
+  "Properties": [
+    {
+      "Id": "Source",
+      "Type": "Generated:87Gd",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "ParsedExpression": "{\"HttpContext\":{\"StatusCode\":200}, \"Response200\":{\"price\":{\"LinxExpression\":\"[PARSED]\"}, \"netvar\":{\"LinxExpression\":\"[PARSED]\"}, \"updated_time\":{\"LinxExpression\":\"[PARSED]\"}}}",
+        "ExpressionPlaceholders": [
+          {
+            "typePath": [
+              "Response200",
+              "price"
+            ],
+            "expression": {
+              "Expression": "GetPriceHistoryByID.price",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:Double"
+            }
+          },
+          {
+            "typePath": [
+              "Response200",
+              "netvar"
+            ],
+            "expression": {
+              "Expression": "GetPriceHistoryByID.netvar",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:Double"
+            }
+          },
+          {
+            "typePath": [
+              "Response200",
+              "updated_time"
+            ],
+            "expression": {
+              "Expression": "GetPriceHistoryByID.updated_time",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:DateTime"
+            }
+          }
+        ]
+      },
+      "ValueType": "Linx.JsonExpression"
+    },
+    {
+      "Id": "Target",
+      "Type": "Generated:87Gd",
+      "ValueUsage": "RuntimeWrite",
+      "Value": {
+        "Expression": "$.Result",
+        "CompiledExpression": "={0}",
+        "Type": "Generated:87Gd"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ]
+}

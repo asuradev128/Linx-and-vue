@@ -1,0 +1,76 @@
+{
+  "Properties": [
+    {
+      "Id": "List",
+      "Type": "List:Custom:saUz",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "Users",
+        "CompiledExpression": "={0}",
+        "Type": "List:Custom:saUz"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Value",
+      "Type": "Custom:saUz",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "ParsedExpression": "{\"id\":{\"LinxExpression\":\"[PARSED]\"}, \"username\":{\"LinxExpression\":\"[PARSED]\"}, \"firstname\":{\"LinxExpression\":\"[PARSED]\"}, \"lastname\":{\"LinxExpression\":\"[PARSED]\"}, \"email\":{\"LinxExpression\":\"[PARSED]\"}}",
+        "ExpressionPlaceholders": [
+          {
+            "typePath": [
+              "id"
+            ],
+            "expression": {
+              "Expression": "GetUsers.ForEachRow.id",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:Int64"
+            }
+          },
+          {
+            "typePath": [
+              "username"
+            ],
+            "expression": {
+              "Expression": "GetUsers.ForEachRow.username",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          },
+          {
+            "typePath": [
+              "firstname"
+            ],
+            "expression": {
+              "Expression": "GetUsers.ForEachRow.firstname",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          },
+          {
+            "typePath": [
+              "lastname"
+            ],
+            "expression": {
+              "Expression": "GetUsers.ForEachRow.lastname",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          },
+          {
+            "typePath": [
+              "email"
+            ],
+            "expression": {
+              "Expression": "GetUsers.ForEachRow.email",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          }
+        ]
+      },
+      "ValueType": "Linx.JsonExpression"
+    }
+  ]
+}

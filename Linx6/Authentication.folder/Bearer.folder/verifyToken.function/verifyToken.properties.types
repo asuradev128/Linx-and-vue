@@ -1,0 +1,36 @@
+[
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "nq2U",
+      "Properties": [
+        {
+          "Id": "J0Ud",
+          "Name": "token",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "fPkw",
+      "Properties": [
+        {
+          "Id": "IUFp",
+          "Name": "payload",
+          "Type": "Custom:ByNk",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "3aeE",
+          "Name": "verified",
+          "Type": "Compiled:Boolean",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  }
+]

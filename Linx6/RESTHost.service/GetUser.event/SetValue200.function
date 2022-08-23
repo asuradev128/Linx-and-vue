@@ -1,0 +1,98 @@
+{
+  "Properties": [
+    {
+      "Id": "Source",
+      "Type": "Generated:zMoM",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "ParsedExpression": "{\"HttpContext\":{\"StatusCode\":200}, \"Response200\":{\"user\":{\"email\":{\"LinxExpression\":\"[PARSED]\"}, \"username\":{\"LinxExpression\":\"[PARSED]\"}, \"id\":{\"LinxExpression\":\"[PARSED]\"}, \"firstname\":{\"LinxExpression\":\"[PARSED]\"}, \"lastname\":{\"LinxExpression\":\"[PARSED]\"}, \"api_key\":{\"LinxExpression\":\"[PARSED]\"}}}}",
+        "ExpressionPlaceholders": [
+          {
+            "typePath": [
+              "Response200",
+              "user",
+              "email"
+            ],
+            "expression": {
+              "Expression": "GetUserForID.email",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          },
+          {
+            "typePath": [
+              "Response200",
+              "user",
+              "username"
+            ],
+            "expression": {
+              "Expression": "GetUserForID.username",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          },
+          {
+            "typePath": [
+              "Response200",
+              "user",
+              "id"
+            ],
+            "expression": {
+              "Expression": "GetUserForID.id",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:Int64"
+            }
+          },
+          {
+            "typePath": [
+              "Response200",
+              "user",
+              "firstname"
+            ],
+            "expression": {
+              "Expression": "GetUserForID.first_name",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          },
+          {
+            "typePath": [
+              "Response200",
+              "user",
+              "lastname"
+            ],
+            "expression": {
+              "Expression": "GetUserForID.last_name",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          },
+          {
+            "typePath": [
+              "Response200",
+              "user",
+              "api_key"
+            ],
+            "expression": {
+              "Expression": "GetUserForID.api_key",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          }
+        ]
+      },
+      "ValueType": "Linx.JsonExpression"
+    },
+    {
+      "Id": "Target",
+      "Type": "Generated:zMoM",
+      "ValueUsage": "RuntimeWrite",
+      "Value": {
+        "Expression": "$.Result",
+        "CompiledExpression": "={0}",
+        "Type": "Generated:zMoM"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ]
+}

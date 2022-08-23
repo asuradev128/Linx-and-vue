@@ -1,0 +1,59 @@
+{
+  "Properties": [
+    {
+      "Id": "Source",
+      "Type": "Generated:vwUD",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "ParsedExpression": "{\"HttpContext\":{\"StatusCode\":200}, \"Response200\":{\"id\":{\"LinxExpression\":\"[PARSED]\"}, \"notification\":{\"LinxExpression\":\"[PARSED]\"}, \"updated_time\":{\"LinxExpression\":\"[PARSED]\"}}}",
+        "ExpressionPlaceholders": [
+          {
+            "typePath": [
+              "Response200",
+              "id"
+            ],
+            "expression": {
+              "Expression": "GetNotificationByID.id",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:Int64"
+            }
+          },
+          {
+            "typePath": [
+              "Response200",
+              "notification"
+            ],
+            "expression": {
+              "Expression": "GetNotificationByID.notification",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          },
+          {
+            "typePath": [
+              "Response200",
+              "updated_time"
+            ],
+            "expression": {
+              "Expression": "GetNotificationByID.updated_time",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:DateTime"
+            }
+          }
+        ]
+      },
+      "ValueType": "Linx.JsonExpression"
+    },
+    {
+      "Id": "Target",
+      "Type": "Generated:vwUD",
+      "ValueUsage": "RuntimeWrite",
+      "Value": {
+        "Expression": "$.Result",
+        "CompiledExpression": "={0}",
+        "Type": "Generated:vwUD"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "6XEQ",
+      "Properties": [
+        {
+          "Id": "ResultCount",
+          "Name": "ResultCount",
+          "Type": "Compiled:Int64",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  }
+]

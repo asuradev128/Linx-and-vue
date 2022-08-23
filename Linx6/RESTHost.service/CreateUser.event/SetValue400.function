@@ -1,0 +1,38 @@
+{
+  "Properties": [
+    {
+      "Id": "Source",
+      "Type": "Generated:BEPh",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "ParsedExpression": "{\"HttpContext\":{\"StatusCode\":400}, \"Response400\":{\"summary\":\"Invalid fields\", \"errors\":[{\"LinxExpression\":\"[PARSED]\"}]}}",
+        "ExpressionPlaceholders": [
+          {
+            "typePath": [
+              "Response400",
+              "errors",
+              "[]"
+            ],
+            "expression": {
+              "Expression": "\"Email Address: Invalid [\" + $.Parameters.body.user.email + \"]\"",
+              "CompiledExpression": "=\"Email Address: Invalid [\"+{0}+\"]\"",
+              "Type": "Compiled:String"
+            }
+          }
+        ]
+      },
+      "ValueType": "Linx.JsonExpression"
+    },
+    {
+      "Id": "Target",
+      "Type": "Generated:BEPh",
+      "ValueUsage": "RuntimeWrite",
+      "Value": {
+        "Expression": "$.Result",
+        "CompiledExpression": "={0}",
+        "Type": "Generated:BEPh"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ]
+}

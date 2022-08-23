@@ -1,0 +1,40 @@
+[
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "qsla",
+      "Properties": [
+        {
+          "Id": "id",
+          "Name": "id",
+          "Type": "Compiled:Int64",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "stock",
+          "Name": "stock",
+          "Type": "Compiled:Int64",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "price",
+          "Name": "price",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "netvar",
+          "Name": "netvar",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "updated_time",
+          "Name": "updated_time",
+          "Type": "Compiled:DateTime",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  }
+]

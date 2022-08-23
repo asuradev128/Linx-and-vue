@@ -1,0 +1,86 @@
+{
+  "Properties": [
+    {
+      "Id": "List",
+      "Type": "List:Custom:HDC3",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "Analystics",
+        "CompiledExpression": "={0}",
+        "Type": "List:Custom:HDC3"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Value",
+      "Type": "Custom:HDC3",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "ParsedExpression": "{\"id\":{\"LinxExpression\":\"[PARSED]\"}, \"name\":{\"LinxExpression\":\"[PARSED]\"}, \"buy\":{\"LinxExpression\":\"[PARSED]\"}, \"sell\":{\"LinxExpression\":\"[PARSED]\"}, \"price\":{\"LinxExpression\":\"[PARSED]\"}, \"netvar\":{\"LinxExpression\":\"[PARSED]\"}}",
+        "ExpressionPlaceholders": [
+          {
+            "typePath": [
+              "id"
+            ],
+            "expression": {
+              "Expression": "GetAnalystics.ForEachRow.id",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:Int64"
+            }
+          },
+          {
+            "typePath": [
+              "name"
+            ],
+            "expression": {
+              "Expression": "GetAnalystics.ForEachRow.name",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          },
+          {
+            "typePath": [
+              "buy"
+            ],
+            "expression": {
+              "Expression": "GetAnalystics.ForEachRow.buy",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:Double"
+            }
+          },
+          {
+            "typePath": [
+              "sell"
+            ],
+            "expression": {
+              "Expression": "GetAnalystics.ForEachRow.sell",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:Double"
+            }
+          },
+          {
+            "typePath": [
+              "price"
+            ],
+            "expression": {
+              "Expression": "GetAnalystics.ForEachRow.price",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:Double"
+            }
+          },
+          {
+            "typePath": [
+              "netvar"
+            ],
+            "expression": {
+              "Expression": "GetAnalystics.ForEachRow.netvar",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:Double"
+            }
+          }
+        ]
+      },
+      "ValueType": "Linx.JsonExpression"
+    }
+  ]
+}

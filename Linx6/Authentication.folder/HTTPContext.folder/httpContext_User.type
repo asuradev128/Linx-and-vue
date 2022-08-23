@@ -1,0 +1,21 @@
+{
+  "Id": "ujDO",
+  "Name": "httpContext_User",
+  "Properties": [
+    {
+      "Id": "S7nD",
+      "Name": "Name",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "tegJ",
+      "Name": "AuthenticationType",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "bP3R",
+      "Name": "IsAuthenticated",
+      "Type": "Compiled:Boolean"
+    }
+  ]
+}

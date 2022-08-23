@@ -1,0 +1,26 @@
+{
+  "Properties": [
+    {
+      "Id": "List",
+      "Type": "List:Custom:walr",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "PriceHistories",
+        "CompiledExpression": "={0}",
+        "Type": "List:Custom:walr"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Value",
+      "Type": "Custom:walr",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "GetPriceHistorys.ForEachRow",
+        "CompiledExpression": "={0}",
+        "Type": "Generated:DeG1"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ]
+}

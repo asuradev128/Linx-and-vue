@@ -1,0 +1,114 @@
+{
+  "Properties": [
+    {
+      "Id": "Connection string",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "$.Settings.db_conn",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Connection type",
+      "Type": "Compiled:Twenty57.Linx.Plugins.Database.Common.Sql.ConnectionTypeSelection, Twenty57.Linx.Plugins.Database, Version=1.0.6.0, Culture=neutral, PublicKeyToken=null",
+      "ValueUsage": "DesignTime",
+      "Value": "SqlServer"
+    },
+    {
+      "Id": "Expression0",
+      "Type": "Compiled:Object",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "username",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Expression1",
+      "Type": "Compiled:Object",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "GenerateHash",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Result type",
+      "Type": "Compiled:Twenty57.Linx.Plugins.Database.ExecuteSQL.ResultType, Twenty57.Linx.Plugins.Database, Version=1.0.6.0, Culture=neutral, PublicKeyToken=null",
+      "ValueUsage": "DesignTime",
+      "Value": {
+        "CustomType": null,
+        "Fields": [
+          {
+            "ColumnName": "id",
+            "Name": "id",
+            "TypeReference": "Compiled:Int64"
+          },
+          {
+            "ColumnName": "username",
+            "Name": "username",
+            "TypeReference": "Compiled:String"
+          },
+          {
+            "ColumnName": "password",
+            "Name": "password",
+            "TypeReference": "Compiled:String"
+          },
+          {
+            "ColumnName": "first_name",
+            "Name": "first_name",
+            "TypeReference": "Compiled:String"
+          },
+          {
+            "ColumnName": "last_name",
+            "Name": "last_name",
+            "TypeReference": "Compiled:String"
+          },
+          {
+            "ColumnName": "email",
+            "Name": "email",
+            "TypeReference": "Compiled:String"
+          },
+          {
+            "ColumnName": "api_key",
+            "Name": "api_key",
+            "TypeReference": "Compiled:String"
+          },
+          {
+            "ColumnName": "jwt_secret",
+            "Name": "jwt_secret",
+            "TypeReference": "Compiled:String"
+          }
+        ],
+        "IsCustomType": false
+      }
+    },
+    {
+      "Id": "Return options",
+      "Type": "Compiled:Twenty57.Linx.Plugins.Database.ExecuteSQL.ReturnModeType, Twenty57.Linx.Plugins.Database, Version=1.0.6.0, Culture=neutral, PublicKeyToken=null",
+      "ValueUsage": "DesignTime",
+      "Value": "FirstRowElseNull"
+    },
+    {
+      "Id": "SQL",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": "SELECT id\r\n      ,username\r\n      ,password\r\n      ,first_name\r\n      ,last_name\r\n      ,email\r\n      ,api_key\r\n      ,jwt_secret\r\n  FROM dbo.api_user\r\n  WHERE username = @{username}\r\n  AND password = @{GenerateHash}\r\n"
+    },
+    {
+      "Id": "Timeout",
+      "Type": "Compiled:Int32",
+      "ValueUsage": "DesignTime",
+      "Value": 60
+    }
+  ],
+  "Result": "Generated:b1sg",
+  "Version": "2"
+}

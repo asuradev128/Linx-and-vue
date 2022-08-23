@@ -1,0 +1,50 @@
+{
+  "Properties": [
+    {
+      "Id": "Source",
+      "Type": "Compiled:Twenty57.Linx.Plugins.Rest.OpenAPIWebService.OpenAPI.OperationEvents.Authenticate.AuthenticateEventOutput, Twenty57.Linx.Plugins.Rest, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "ParsedExpression": "{\"HttpContext\":{\"User\":{\"Name\":{\"LinxExpression\":\"[PARSED]\"}, \"AuthenticationType\":\"basic\", \"IsAuthenticated\":{\"LinxExpression\":\"[PARSED]\"}}}}",
+        "ExpressionPlaceholders": [
+          {
+            "typePath": [
+              "HttpContext",
+              "User",
+              "Name"
+            ],
+            "expression": {
+              "Expression": "authenticate_basic.Name",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:Int64"
+            }
+          },
+          {
+            "typePath": [
+              "HttpContext",
+              "User",
+              "IsAuthenticated"
+            ],
+            "expression": {
+              "Expression": "authenticate_basic.IsAuthenticated",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:Boolean"
+            }
+          }
+        ]
+      },
+      "ValueType": "Linx.JsonExpression"
+    },
+    {
+      "Id": "Target",
+      "Type": "Compiled:Twenty57.Linx.Plugins.Rest.OpenAPIWebService.OpenAPI.OperationEvents.Authenticate.AuthenticateEventOutput, Twenty57.Linx.Plugins.Rest, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null",
+      "ValueUsage": "RuntimeWrite",
+      "Value": {
+        "Expression": "$.Result",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:Twenty57.Linx.Plugins.Rest.OpenAPIWebService.OpenAPI.OperationEvents.Authenticate.AuthenticateEventOutput, Twenty57.Linx.Plugins.Rest, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ]
+}

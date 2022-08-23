@@ -1,0 +1,16 @@
+[
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "NLQy",
+      "Properties": [
+        {
+          "Id": "0rlx",
+          "Name": "httpsContext",
+          "Type": "Custom:GSa4",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  }
+]

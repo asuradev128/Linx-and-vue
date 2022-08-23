@@ -1,0 +1,46 @@
+{
+  "Properties": [
+    {
+      "Id": "Source",
+      "Type": "Generated:fPkw",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "ParsedExpression": "{\"payload\":{\"LinxExpression\":\"[PARSED]\"}, \"verified\":{\"LinxExpression\":\"[PARSED]\"}}",
+        "ExpressionPlaceholders": [
+          {
+            "typePath": [
+              "payload"
+            ],
+            "expression": {
+              "Expression": "VerifyJWT.Payload",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          },
+          {
+            "typePath": [
+              "verified"
+            ],
+            "expression": {
+              "Expression": "VerifyJWT.Verified",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:Boolean"
+            }
+          }
+        ]
+      },
+      "ValueType": "Linx.JsonExpression"
+    },
+    {
+      "Id": "Target",
+      "Type": "Generated:fPkw",
+      "ValueUsage": "RuntimeWrite",
+      "Value": {
+        "Expression": "$.Result",
+        "CompiledExpression": "={0}",
+        "Type": "Generated:fPkw"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ]
+}

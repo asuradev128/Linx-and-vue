@@ -1,0 +1,86 @@
+{
+  "Properties": [
+    {
+      "Id": "Source",
+      "Type": "Generated:BEPh",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "ParsedExpression": "{\"HttpContext\":{\"StatusCode\":201}, \"Response201\":{\"user\":{\"email\":{\"LinxExpression\":\"[PARSED]\"},\"username\":{\"LinxExpression\":\"[PARSED]\"},\"id\":{\"LinxExpression\":\"[PARSED]\"},\"firstname\":{\"LinxExpression\":\"[PARSED]\"},\"lastname\":{\"LinxExpression\":\"[PARSED]\"}}}}",
+        "ExpressionPlaceholders": [
+          {
+            "typePath": [
+              "Response201",
+              "user",
+              "email"
+            ],
+            "expression": {
+              "Expression": "$.Parameters.body.user.email",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          },
+          {
+            "typePath": [
+              "Response201",
+              "user",
+              "username"
+            ],
+            "expression": {
+              "Expression": "$.Parameters.body.user.username",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          },
+          {
+            "typePath": [
+              "Response201",
+              "user",
+              "id"
+            ],
+            "expression": {
+              "Expression": "AddUserToDatabase.ID",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:Decimal"
+            }
+          },
+          {
+            "typePath": [
+              "Response201",
+              "user",
+              "firstname"
+            ],
+            "expression": {
+              "Expression": "$.Parameters.body.user.firstname",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          },
+          {
+            "typePath": [
+              "Response201",
+              "user",
+              "lastname"
+            ],
+            "expression": {
+              "Expression": "$.Parameters.body.user.lastname",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          }
+        ]
+      },
+      "ValueType": "Linx.JsonExpression"
+    },
+    {
+      "Id": "Target",
+      "Type": "Generated:BEPh",
+      "ValueUsage": "RuntimeWrite",
+      "Value": {
+        "Expression": "$.Result",
+        "CompiledExpression": "={0}",
+        "Type": "Generated:BEPh"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ]
+}

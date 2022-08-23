@@ -1,0 +1,43 @@
+{
+  "Properties": [
+    {
+      "Id": "Type",
+      "Type": "Compiled:Linx.ITypeReference",
+      "ValueUsage": "DesignTime",
+      "Value": "Custom:ByNk",
+      "ValueType": "Linx.ValidCustomTypeReference"
+    },
+    {
+      "Id": "Value",
+      "Type": "Custom:ByNk",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "ParsedExpression": "{\"exp\":{\"LinxExpression\":\"[PARSED]\"}, \"unique_name\":{\"LinxExpression\":\"[PARSED]\"}}",
+        "ExpressionPlaceholders": [
+          {
+            "typePath": [
+              "exp"
+            ],
+            "expression": {
+              "Expression": "($.System.CurrentDateTime - \"1970-01-01\".ToDateTime(\"yyyy-MM-dd\")).TotalSeconds + $.Settings.JWTExpirySeconds",
+              "CompiledExpression": "=({1}-System.DateTime.ParseExact(\"1970-01-01\",\"yyyy-MM-dd\",null)).TotalSeconds+{0}",
+              "Type": "Compiled:String"
+            }
+          },
+          {
+            "typePath": [
+              "unique_name"
+            ],
+            "expression": {
+              "Expression": "$.Parameters.unique_name",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          }
+        ]
+      },
+      "ValueType": "Linx.JsonExpression"
+    }
+  ],
+  "Result": "Custom:ByNk"
+}

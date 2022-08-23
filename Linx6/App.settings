@@ -1,0 +1,38 @@
+[
+  {
+    "Id": "7GgE",
+    "Name": "api_base_uri",
+    "Type": "Compiled:String",
+    "Value": "http://localhost:8022"
+  },
+  {
+    "Id": "wqKr",
+    "Name": "api_key",
+    "Type": "Compiled:String",
+    "Value": "0imfnc8mVLWwsAawjYr4Rx-Af50DDqtlx"
+  },
+  {
+    "Id": "gEOU",
+    "Name": "baseFilePath",
+    "Type": "Compiled:String",
+    "Value": "C:\\Temp\\Linx\\API\\"
+  },
+  {
+    "Id": "nu6a",
+    "Name": "db_conn",
+    "Type": "Compiled:String",
+    "Value": "Data Source=DESKTOP-GCHO2QC;Initial Catalog=stdb;Integrated Security=True;"
+  },
+  {
+    "Id": "SHoR",
+    "Name": "JWTExpirySeconds",
+    "Type": "Compiled:String",
+    "Value": "3600"
+  },
+  {
+    "Id": "GFIx",
+    "Name": "JWTTokenSecretSigningKey",
+    "Type": "Compiled:String",
+    "Value": "reallyreallylongstringof1234characters2"
+  }
+]

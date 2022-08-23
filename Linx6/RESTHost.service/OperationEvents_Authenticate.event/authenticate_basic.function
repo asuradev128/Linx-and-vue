@@ -1,0 +1,39 @@
+{
+  "Properties": [
+    {
+      "Id": "ParameterNameMapping",
+      "Type": "Compiled:System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "ValueUsage": "DesignTime",
+      "Value": {
+        "Zd6G": "authorizationHeaderValue"
+      },
+      "ValueType": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "Id": "Process",
+      "Type": "Compiled:Linx.IProcessReference",
+      "ValueUsage": "DesignTime",
+      "Value": {
+        "Id": "v8q4",
+        "Name": "Authentication.Basic.authenticate_basic",
+        "Parameters": "Generated:IDqC",
+        "Result": "Custom:ujDO",
+        "IsValid": true,
+        "QualifiedPath": "FL:Authentication→FL:Basic→PC:authenticate_basic"
+      },
+      "ValueType": "Linx.ProcessReference"
+    },
+    {
+      "Id": "Zd6G",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "$.Parameters.HttpContext.Headers.SelectMany(headers => headers.Value).Where(item => item.StartsWith(\"Basic \")).First().Replace(\"Basic \",\"\")",
+        "CompiledExpression": "={0}.SelectMany(headers=>headers.Value).Where(item=>item.StartsWith(\"Basic \")).First().Replace(\"Basic \",\"\")",
+        "Type": "Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ],
+  "Result": "Custom:ujDO"
+}

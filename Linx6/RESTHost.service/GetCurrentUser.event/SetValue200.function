@@ -1,0 +1,98 @@
+{
+  "Properties": [
+    {
+      "Id": "Source",
+      "Type": "Generated:WjzP",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "ParsedExpression": "{\"HttpContext\":{\"StatusCode\":200}, \"Response200\":{\"user\":{\"email\":{\"LinxExpression\":\"[PARSED]\"}, \"username\":{\"LinxExpression\":\"[PARSED]\"}, \"id\":{\"LinxExpression\":\"[PARSED]\"}, \"firstname\":{\"LinxExpression\":\"[PARSED]\"}, \"lastname\":{\"LinxExpression\":\"[PARSED]\"}, \"api_key\":{\"LinxExpression\":\"[PARSED]\"}}}}",
+        "ExpressionPlaceholders": [
+          {
+            "typePath": [
+              "Response200",
+              "user",
+              "email"
+            ],
+            "expression": {
+              "Expression": "GetUser.email",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          },
+          {
+            "typePath": [
+              "Response200",
+              "user",
+              "username"
+            ],
+            "expression": {
+              "Expression": "GetUser.username",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          },
+          {
+            "typePath": [
+              "Response200",
+              "user",
+              "id"
+            ],
+            "expression": {
+              "Expression": "GetUser.id",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:Int64"
+            }
+          },
+          {
+            "typePath": [
+              "Response200",
+              "user",
+              "firstname"
+            ],
+            "expression": {
+              "Expression": "GetUser.first_name",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          },
+          {
+            "typePath": [
+              "Response200",
+              "user",
+              "lastname"
+            ],
+            "expression": {
+              "Expression": "GetUser.last_name",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          },
+          {
+            "typePath": [
+              "Response200",
+              "user",
+              "api_key"
+            ],
+            "expression": {
+              "Expression": "GetUser.api_key",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          }
+        ]
+      },
+      "ValueType": "Linx.JsonExpression"
+    },
+    {
+      "Id": "Target",
+      "Type": "Generated:WjzP",
+      "ValueUsage": "RuntimeWrite",
+      "Value": {
+        "Expression": "$.Result",
+        "CompiledExpression": "={0}",
+        "Type": "Generated:WjzP"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ]
+}

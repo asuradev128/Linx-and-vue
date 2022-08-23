@@ -1,0 +1,26 @@
+{
+  "Properties": [
+    {
+      "Id": "List",
+      "Type": "List:Custom:ayle",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "Portfolios",
+        "CompiledExpression": "={0}",
+        "Type": "List:Custom:ayle"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Value",
+      "Type": "Custom:ayle",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "GetPortfolios.ForEachRow",
+        "CompiledExpression": "={0}",
+        "Type": "Generated:Elwn"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ]
+}

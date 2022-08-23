@@ -1,0 +1,31 @@
+{
+  "Id": "ayle",
+  "Name": "Portfolio",
+  "Properties": [
+    {
+      "Id": "p0pt",
+      "Name": "qty",
+      "Type": "Compiled:Double"
+    },
+    {
+      "Id": "bojF",
+      "Name": "name",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "SKyC",
+      "Name": "price",
+      "Type": "Compiled:Double"
+    },
+    {
+      "Id": "zLYF",
+      "Name": "netvar",
+      "Type": "Compiled:Double"
+    },
+    {
+      "Id": "frRJ",
+      "Name": "id",
+      "Type": "Compiled:Int64"
+    }
+  ]
+}

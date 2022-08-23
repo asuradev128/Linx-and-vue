@@ -1,0 +1,26 @@
+{
+  "Properties": [
+    {
+      "Id": "List",
+      "Type": "List:Custom:PNuD",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "Stocks",
+        "CompiledExpression": "={0}",
+        "Type": "List:Custom:PNuD"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Value",
+      "Type": "Custom:PNuD",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "GetStocks.ForEachRow",
+        "CompiledExpression": "={0}",
+        "Type": "Generated:YxDw"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ]
+}

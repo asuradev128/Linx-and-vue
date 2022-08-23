@@ -1,0 +1,28 @@
+[
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "XoOB",
+      "Properties": [
+        {
+          "Id": "id",
+          "Name": "id",
+          "Type": "Compiled:Int64",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "stock",
+          "Name": "stock",
+          "Type": "Compiled:Int64",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "qty",
+          "Name": "qty",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  }
+]

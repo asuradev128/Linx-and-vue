@@ -1,0 +1,24 @@
+{
+  "ExecutionPaths": [
+    {
+      "PluginId": "Loop",
+      "Name": "Loop",
+      "Result": "List:Generated:Od58",
+      "Order": 0,
+      "IterationHint": "ZeroOrMore"
+    }
+  ],
+  "Properties": [
+    {
+      "Id": "List",
+      "Type": "List:Generated:Od58",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "$.Parameters.body.stocks",
+        "CompiledExpression": "={0}",
+        "Type": "List:Generated:Od58"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ]
+}

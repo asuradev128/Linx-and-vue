@@ -1,0 +1,81 @@
+{
+  "Properties": [
+    {
+      "Id": "Source",
+      "Type": "Generated:6vff",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "ParsedExpression": "{\"HttpContext\":{\"StatusCode\":200}, \"Response200\":{\"id\":{\"LinxExpression\":\"[PARSED]\"}, \"name\":{\"LinxExpression\":\"[PARSED]\"}, \"price\":{\"LinxExpression\":\"[PARSED]\"}, \"netvar\":{\"LinxExpression\":\"[PARSED]\"}, \"qty\":{\"LinxExpression\":\"[PARSED]\"}}}",
+        "ExpressionPlaceholders": [
+          {
+            "typePath": [
+              "Response200",
+              "id"
+            ],
+            "expression": {
+              "Expression": "GetPortfolioByID.id",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:Int64"
+            }
+          },
+          {
+            "typePath": [
+              "Response200",
+              "name"
+            ],
+            "expression": {
+              "Expression": "GetPortfolioByID.name",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          },
+          {
+            "typePath": [
+              "Response200",
+              "price"
+            ],
+            "expression": {
+              "Expression": "GetPortfolioByID.price",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:Double"
+            }
+          },
+          {
+            "typePath": [
+              "Response200",
+              "netvar"
+            ],
+            "expression": {
+              "Expression": "GetPortfolioByID.netvar",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:Double"
+            }
+          },
+          {
+            "typePath": [
+              "Response200",
+              "qty"
+            ],
+            "expression": {
+              "Expression": "GetPortfolioByID.qty",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:Double"
+            }
+          }
+        ]
+      },
+      "ValueType": "Linx.JsonExpression"
+    },
+    {
+      "Id": "Target",
+      "Type": "Generated:6vff",
+      "ValueUsage": "RuntimeWrite",
+      "Value": {
+        "Expression": "$.Result",
+        "CompiledExpression": "={0}",
+        "Type": "Generated:6vff"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ]
+}

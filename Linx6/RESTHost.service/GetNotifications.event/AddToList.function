@@ -1,0 +1,26 @@
+{
+  "Properties": [
+    {
+      "Id": "List",
+      "Type": "List:Custom:geWs",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "Notifications",
+        "CompiledExpression": "={0}",
+        "Type": "List:Custom:geWs"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Value",
+      "Type": "Custom:geWs",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "GetNotifications.ForEachRow",
+        "CompiledExpression": "={0}",
+        "Type": "Generated:n2gW"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ]
+}

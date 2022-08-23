@@ -1,0 +1,46 @@
+[
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "aFPP",
+      "Properties": [
+        {
+          "Id": "id",
+          "Name": "id",
+          "Type": "Compiled:Int64",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "name",
+          "Name": "name",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "price",
+          "Name": "price",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "netvar",
+          "Name": "netvar",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "buy",
+          "Name": "buy",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "sell",
+          "Name": "sell",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  }
+]

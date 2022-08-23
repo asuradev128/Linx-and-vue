@@ -1,0 +1,59 @@
+{
+  "Properties": [
+    {
+      "Id": "Source",
+      "Type": "Generated:DY6D",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "ParsedExpression": "{\"HttpContext\":{\"StatusCode\":200}, \"Response200\":{\"access_token\":{\"LinxExpression\":\"[PARSED]\"}, \"expires_in\":{\"LinxExpression\":\"[PARSED]\"}, \"token_type\":{\"LinxExpression\":\"[PARSED]\"}}}",
+        "ExpressionPlaceholders": [
+          {
+            "typePath": [
+              "Response200",
+              "access_token"
+            ],
+            "expression": {
+              "Expression": "generateToken.access_token",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          },
+          {
+            "typePath": [
+              "Response200",
+              "expires_in"
+            ],
+            "expression": {
+              "Expression": "generateToken.expires_in",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:Int64"
+            }
+          },
+          {
+            "typePath": [
+              "Response200",
+              "token_type"
+            ],
+            "expression": {
+              "Expression": "generateToken.token_type",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          }
+        ]
+      },
+      "ValueType": "Linx.JsonExpression"
+    },
+    {
+      "Id": "Target",
+      "Type": "Generated:DY6D",
+      "ValueUsage": "RuntimeWrite",
+      "Value": {
+        "Expression": "$.Result",
+        "CompiledExpression": "={0}",
+        "Type": "Generated:DY6D"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "Id": "UGme",
+  "Name": "token",
+  "Properties": [
+    {
+      "Id": "V5ng",
+      "Name": "token_type",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "t6n5",
+      "Name": "expires_in",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "W1DL",
+      "Name": "access_token",
+      "Type": "Compiled:String"
+    }
+  ]
+}

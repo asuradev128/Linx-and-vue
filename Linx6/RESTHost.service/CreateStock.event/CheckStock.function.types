@@ -1,0 +1,34 @@
+[
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "k80E",
+      "Properties": [
+        {
+          "Id": "id",
+          "Name": "id",
+          "Type": "Compiled:Int64",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "name",
+          "Name": "name",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "price",
+          "Name": "price",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "netvar",
+          "Name": "netvar",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "Id": "geWs",
+  "Name": "Notification",
+  "Properties": [
+    {
+      "Id": "LrJk",
+      "Name": "id",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "OKdq",
+      "Name": "notification",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "bh9A",
+      "Name": "updated_time",
+      "Type": "Compiled:DateTime"
+    }
+  ]
+}

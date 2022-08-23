@@ -1,0 +1,16 @@
+[
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "IMDe",
+      "Properties": [
+        {
+          "Id": "ResultCount",
+          "Name": "ResultCount",
+          "Type": "Compiled:Int64",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  }
+]

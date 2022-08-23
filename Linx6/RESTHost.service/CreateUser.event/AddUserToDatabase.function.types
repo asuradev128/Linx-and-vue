@@ -1,0 +1,16 @@
+[
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "Xgad",
+      "Properties": [
+        {
+          "Id": "ID",
+          "Name": "ID",
+          "Type": "Compiled:Decimal",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  }
+]

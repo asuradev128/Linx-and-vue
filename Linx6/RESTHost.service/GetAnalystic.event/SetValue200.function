@@ -1,0 +1,70 @@
+{
+  "Properties": [
+    {
+      "Id": "Source",
+      "Type": "Generated:Ks2P",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "ParsedExpression": "{\"HttpContext\":{\"StatusCode\":200}, \"Response200\":{\"id\":{\"LinxExpression\":\"[PARSED]\"}, \"stock\":{\"LinxExpression\":\"[PARSED]\"}, \"buy\":{\"LinxExpression\":\"[PARSED]\"}, \"sell\":{\"LinxExpression\":\"[PARSED]\"}}}",
+        "ExpressionPlaceholders": [
+          {
+            "typePath": [
+              "Response200",
+              "id"
+            ],
+            "expression": {
+              "Expression": "GetAnalysticForID.id",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:Int64"
+            }
+          },
+          {
+            "typePath": [
+              "Response200",
+              "stock"
+            ],
+            "expression": {
+              "Expression": "GetAnalysticForID.stock",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:Int64"
+            }
+          },
+          {
+            "typePath": [
+              "Response200",
+              "buy"
+            ],
+            "expression": {
+              "Expression": "GetAnalysticForID.buy",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:Double"
+            }
+          },
+          {
+            "typePath": [
+              "Response200",
+              "sell"
+            ],
+            "expression": {
+              "Expression": "GetAnalysticForID.sell",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:Double"
+            }
+          }
+        ]
+      },
+      "ValueType": "Linx.JsonExpression"
+    },
+    {
+      "Id": "Target",
+      "Type": "Generated:Ks2P",
+      "ValueUsage": "RuntimeWrite",
+      "Value": {
+        "Expression": "$.Result",
+        "CompiledExpression": "={0}",
+        "Type": "Generated:Ks2P"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ]
+}

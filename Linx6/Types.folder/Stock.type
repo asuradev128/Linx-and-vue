@@ -1,0 +1,46 @@
+{
+  "Id": "PNuD",
+  "Name": "Stock",
+  "Properties": [
+    {
+      "Id": "5ULI",
+      "Name": "id",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "syHT",
+      "Name": "name",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "7L36",
+      "Name": "price",
+      "Type": "Compiled:Double"
+    },
+    {
+      "Id": "0sd4",
+      "Name": "netvar",
+      "Type": "Compiled:Double"
+    },
+    {
+      "Id": "XuGv",
+      "Name": "prev_price",
+      "Type": "Compiled:Double"
+    },
+    {
+      "Id": "QPzG",
+      "Name": "change",
+      "Type": "Compiled:Double"
+    },
+    {
+      "Id": "wFXw",
+      "Name": "beta",
+      "Type": "Compiled:Double"
+    },
+    {
+      "Id": "ZViL",
+      "Name": "volume",
+      "Type": "Compiled:Int64"
+    }
+  ]
+}

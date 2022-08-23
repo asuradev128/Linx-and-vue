@@ -1,0 +1,26 @@
+{
+  "Properties": [
+    {
+      "Id": "Source",
+      "Type": "Custom:GSa4",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "$.Parameters.httpsContext.Headers.SelectMany(headers => headers.Value).Where(item => item.StartsWith(\"Bearer \")).First().Replace(\"Bearer \",\"\")",
+        "CompiledExpression": "={0}.SelectMany(headers=>headers.Value).Where(item=>item.StartsWith(\"Bearer \")).First().Replace(\"Bearer \",\"\")",
+        "Type": "Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Target",
+      "Type": "Custom:GSa4",
+      "ValueUsage": "RuntimeWrite",
+      "Value": {
+        "Expression": "$.Result",
+        "CompiledExpression": "={0}",
+        "Type": "Custom:GSa4"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ]
+}

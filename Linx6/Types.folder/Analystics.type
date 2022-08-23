@@ -1,0 +1,36 @@
+{
+  "Id": "HDC3",
+  "Name": "Analystics",
+  "Properties": [
+    {
+      "Id": "WbGf",
+      "Name": "id",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "TZJX",
+      "Name": "name",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "Cv09",
+      "Name": "buy",
+      "Type": "Compiled:Double"
+    },
+    {
+      "Id": "FU75",
+      "Name": "sell",
+      "Type": "Compiled:Double"
+    },
+    {
+      "Id": "avDi",
+      "Name": "price",
+      "Type": "Compiled:Double"
+    },
+    {
+      "Id": "hDEi",
+      "Name": "netvar",
+      "Type": "Compiled:Double"
+    }
+  ]
+}

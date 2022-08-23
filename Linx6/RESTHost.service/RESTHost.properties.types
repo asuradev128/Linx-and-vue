@@ -1,0 +1,2598 @@
+[
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "6gw3",
+      "Properties": [
+        {
+          "Id": "analystic",
+          "Name": "analystic",
+          "Type": "Generated:RkPJ",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "RkPJ",
+      "Properties": [
+        {
+          "Id": "stock",
+          "Name": "stock",
+          "Type": "Compiled:Int32",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "buy",
+          "Name": "buy",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "sell",
+          "Name": "sell",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "5zFm",
+      "Properties": [
+        {
+          "Id": "HttpContext",
+          "Name": "HttpContext",
+          "Type": "Compiled:Twenty57.Linx.Plugins.Rest.OpenAPIWebService.OpenAPI.Data.Out.HttpContext, Twenty57.Linx.Plugins.Rest, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "Response400",
+          "Name": "Response400",
+          "Type": "Generated:xwEK",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "ResponseXXX",
+          "Name": "ResponseXXX",
+          "Type": "Compiled:Object",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "xwEK",
+      "Properties": [
+        {
+          "Id": "summary",
+          "Name": "summary",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "errors",
+          "Name": "errors",
+          "Type": "List:Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "CQlf",
+      "Properties": [
+        {
+          "Id": "notification",
+          "Name": "notification",
+          "Type": "Generated:jXCB",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "jXCB",
+      "Properties": [
+        {
+          "Id": "notification",
+          "Name": "notification",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "updated_time",
+          "Name": "updated_time",
+          "Type": "Compiled:DateTime",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "GFZ5",
+      "Properties": [
+        {
+          "Id": "HttpContext",
+          "Name": "HttpContext",
+          "Type": "Compiled:Twenty57.Linx.Plugins.Rest.OpenAPIWebService.OpenAPI.Data.Out.HttpContext, Twenty57.Linx.Plugins.Rest, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "Response400",
+          "Name": "Response400",
+          "Type": "Generated:kSG1",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "ResponseXXX",
+          "Name": "ResponseXXX",
+          "Type": "Compiled:Object",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "kSG1",
+      "Properties": [
+        {
+          "Id": "summary",
+          "Name": "summary",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "errors",
+          "Name": "errors",
+          "Type": "List:Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "MipU",
+      "Properties": [
+        {
+          "Id": "portfolio",
+          "Name": "portfolio",
+          "Type": "Generated:DKnA",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "DKnA",
+      "Properties": [
+        {
+          "Id": "stock",
+          "Name": "stock",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "qty",
+          "Name": "qty",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "yngF",
+      "Properties": [
+        {
+          "Id": "HttpContext",
+          "Name": "HttpContext",
+          "Type": "Compiled:Twenty57.Linx.Plugins.Rest.OpenAPIWebService.OpenAPI.Data.Out.HttpContext, Twenty57.Linx.Plugins.Rest, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "Response400",
+          "Name": "Response400",
+          "Type": "Generated:YAbk",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "ResponseXXX",
+          "Name": "ResponseXXX",
+          "Type": "Compiled:Object",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "YAbk",
+      "Properties": [
+        {
+          "Id": "summary",
+          "Name": "summary",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "errors",
+          "Name": "errors",
+          "Type": "List:Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "739t",
+      "Properties": [
+        {
+          "Id": "pricehistory",
+          "Name": "pricehistory",
+          "Type": "Generated:1dAO",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "1dAO",
+      "Properties": [
+        {
+          "Id": "stock",
+          "Name": "stock",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "price",
+          "Name": "price",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "netvar",
+          "Name": "netvar",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "updeted_time",
+          "Name": "updeted_time",
+          "Type": "Compiled:DateTime",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "U6mG",
+      "Properties": [
+        {
+          "Id": "HttpContext",
+          "Name": "HttpContext",
+          "Type": "Compiled:Twenty57.Linx.Plugins.Rest.OpenAPIWebService.OpenAPI.Data.Out.HttpContext, Twenty57.Linx.Plugins.Rest, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "Response400",
+          "Name": "Response400",
+          "Type": "Generated:p966",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "ResponseXXX",
+          "Name": "ResponseXXX",
+          "Type": "Compiled:Object",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "p966",
+      "Properties": [
+        {
+          "Id": "summary",
+          "Name": "summary",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "errors",
+          "Name": "errors",
+          "Type": "List:Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "mSkM",
+      "Properties": [
+        {
+          "Id": "stock",
+          "Name": "stock",
+          "Type": "Generated:MHWm",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "MHWm",
+      "Properties": [
+        {
+          "Id": "name",
+          "Name": "name",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "price",
+          "Name": "price",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "prev_price",
+          "Name": "prev_price",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "netvar",
+          "Name": "netvar",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "change",
+          "Name": "change",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "beta",
+          "Name": "beta",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "volume",
+          "Name": "volume",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "updated_time",
+          "Name": "updated_time",
+          "Type": "Compiled:DateTime",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "u2CE",
+      "Properties": [
+        {
+          "Id": "HttpContext",
+          "Name": "HttpContext",
+          "Type": "Compiled:Twenty57.Linx.Plugins.Rest.OpenAPIWebService.OpenAPI.Data.Out.HttpContext, Twenty57.Linx.Plugins.Rest, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "Response400",
+          "Name": "Response400",
+          "Type": "Generated:uXYB",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "ResponseXXX",
+          "Name": "ResponseXXX",
+          "Type": "Compiled:Object",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "uXYB",
+      "Properties": [
+        {
+          "Id": "summary",
+          "Name": "summary",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "errors",
+          "Name": "errors",
+          "Type": "List:Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "PeJt",
+      "Properties": [
+        {
+          "Id": "user",
+          "Name": "user",
+          "Type": "Generated:s8sB",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "s8sB",
+      "Properties": [
+        {
+          "Id": "username",
+          "Name": "username",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "email",
+          "Name": "email",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "password",
+          "Name": "password",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "firstname",
+          "Name": "firstname",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "lastname",
+          "Name": "lastname",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "BEPh",
+      "Properties": [
+        {
+          "Id": "HttpContext",
+          "Name": "HttpContext",
+          "Type": "Compiled:Twenty57.Linx.Plugins.Rest.OpenAPIWebService.OpenAPI.Data.Out.HttpContext, Twenty57.Linx.Plugins.Rest, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "Response201",
+          "Name": "Response201",
+          "Type": "Generated:Uv43",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "Response400",
+          "Name": "Response400",
+          "Type": "Generated:85QP",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "ResponseXXX",
+          "Name": "ResponseXXX",
+          "Type": "Compiled:Object",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "Uv43",
+      "Properties": [
+        {
+          "Id": "user",
+          "Name": "user",
+          "Type": "Generated:AxQa",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "AxQa",
+      "Properties": [
+        {
+          "Id": "email",
+          "Name": "email",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "username",
+          "Name": "username",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "id",
+          "Name": "id",
+          "Type": "Compiled:Int32",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "firstname",
+          "Name": "firstname",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "lastname",
+          "Name": "lastname",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "api_key",
+          "Name": "api_key",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "85QP",
+      "Properties": [
+        {
+          "Id": "summary",
+          "Name": "summary",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "errors",
+          "Name": "errors",
+          "Type": "List:Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "m46s",
+      "Properties": [
+        {
+          "Id": "HttpContext",
+          "Name": "HttpContext",
+          "Type": "Compiled:Twenty57.Linx.Plugins.Rest.OpenAPIWebService.OpenAPI.Data.Out.HttpContext, Twenty57.Linx.Plugins.Rest, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "Response422",
+          "Name": "Response422",
+          "Type": "Generated:cVcr",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "ResponseXXX",
+          "Name": "ResponseXXX",
+          "Type": "Compiled:Object",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "cVcr",
+      "Properties": [
+        {
+          "Id": "summary",
+          "Name": "summary",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "errors",
+          "Name": "errors",
+          "Type": "List:Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "sJsE",
+      "Properties": [
+        {
+          "Id": "HttpContext",
+          "Name": "HttpContext",
+          "Type": "Compiled:Twenty57.Linx.Plugins.Rest.OpenAPIWebService.OpenAPI.Data.Out.HttpContext, Twenty57.Linx.Plugins.Rest, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "Response422",
+          "Name": "Response422",
+          "Type": "Generated:7pMD",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "ResponseXXX",
+          "Name": "ResponseXXX",
+          "Type": "Compiled:Object",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "7pMD",
+      "Properties": [
+        {
+          "Id": "summary",
+          "Name": "summary",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "errors",
+          "Name": "errors",
+          "Type": "List:Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "toIl",
+      "Properties": [
+        {
+          "Id": "HttpContext",
+          "Name": "HttpContext",
+          "Type": "Compiled:Twenty57.Linx.Plugins.Rest.OpenAPIWebService.OpenAPI.Data.Out.HttpContext, Twenty57.Linx.Plugins.Rest, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "Response422",
+          "Name": "Response422",
+          "Type": "Generated:bRD5",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "ResponseXXX",
+          "Name": "ResponseXXX",
+          "Type": "Compiled:Object",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "bRD5",
+      "Properties": [
+        {
+          "Id": "summary",
+          "Name": "summary",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "errors",
+          "Name": "errors",
+          "Type": "List:Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "HTRJ",
+      "Properties": [
+        {
+          "Id": "HttpContext",
+          "Name": "HttpContext",
+          "Type": "Compiled:Twenty57.Linx.Plugins.Rest.OpenAPIWebService.OpenAPI.Data.Out.HttpContext, Twenty57.Linx.Plugins.Rest, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "Response422",
+          "Name": "Response422",
+          "Type": "Generated:4dpU",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "ResponseXXX",
+          "Name": "ResponseXXX",
+          "Type": "Compiled:Object",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "4dpU",
+      "Properties": [
+        {
+          "Id": "summary",
+          "Name": "summary",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "errors",
+          "Name": "errors",
+          "Type": "List:Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "SbUe",
+      "Properties": [
+        {
+          "Id": "HttpContext",
+          "Name": "HttpContext",
+          "Type": "Compiled:Twenty57.Linx.Plugins.Rest.OpenAPIWebService.OpenAPI.Data.Out.HttpContext, Twenty57.Linx.Plugins.Rest, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "Response422",
+          "Name": "Response422",
+          "Type": "Generated:IQdv",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "ResponseXXX",
+          "Name": "ResponseXXX",
+          "Type": "Compiled:Object",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "IQdv",
+      "Properties": [
+        {
+          "Id": "summary",
+          "Name": "summary",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "errors",
+          "Name": "errors",
+          "Type": "List:Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "5hfY",
+      "Properties": [
+        {
+          "Id": "HttpContext",
+          "Name": "HttpContext",
+          "Type": "Compiled:Twenty57.Linx.Plugins.Rest.OpenAPIWebService.OpenAPI.Data.Out.HttpContext, Twenty57.Linx.Plugins.Rest, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "Response422",
+          "Name": "Response422",
+          "Type": "Generated:Mbbt",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "ResponseXXX",
+          "Name": "ResponseXXX",
+          "Type": "Compiled:Object",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "Mbbt",
+      "Properties": [
+        {
+          "Id": "summary",
+          "Name": "summary",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "errors",
+          "Name": "errors",
+          "Type": "List:Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "DY6D",
+      "Properties": [
+        {
+          "Id": "HttpContext",
+          "Name": "HttpContext",
+          "Type": "Compiled:Twenty57.Linx.Plugins.Rest.OpenAPIWebService.OpenAPI.Data.Out.HttpContext, Twenty57.Linx.Plugins.Rest, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "Response200",
+          "Name": "Response200",
+          "Type": "Generated:n6dO",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "ResponseXXX",
+          "Name": "ResponseXXX",
+          "Type": "Compiled:Object",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "n6dO",
+      "Properties": [
+        {
+          "Id": "access_token",
+          "Name": "access_token",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "expires_in",
+          "Name": "expires_in",
+          "Type": "Compiled:Int32",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "token_type",
+          "Name": "token_type",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "Ks2P",
+      "Properties": [
+        {
+          "Id": "HttpContext",
+          "Name": "HttpContext",
+          "Type": "Compiled:Twenty57.Linx.Plugins.Rest.OpenAPIWebService.OpenAPI.Data.Out.HttpContext, Twenty57.Linx.Plugins.Rest, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "Response200",
+          "Name": "Response200",
+          "Type": "Generated:FgRj",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "Response422",
+          "Name": "Response422",
+          "Type": "Generated:ABkE",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "ResponseXXX",
+          "Name": "ResponseXXX",
+          "Type": "Compiled:Object",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "FgRj",
+      "Properties": [
+        {
+          "Id": "id",
+          "Name": "id",
+          "Type": "Compiled:Int32",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "stock",
+          "Name": "stock",
+          "Type": "Compiled:Int32",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "buy",
+          "Name": "buy",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "sell",
+          "Name": "sell",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "name",
+          "Name": "name",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "price",
+          "Name": "price",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "netvar",
+          "Name": "netvar",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "ABkE",
+      "Properties": [
+        {
+          "Id": "summary",
+          "Name": "summary",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "errors",
+          "Name": "errors",
+          "Type": "List:Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "byvU",
+      "Properties": [
+        {
+          "Id": "HttpContext",
+          "Name": "HttpContext",
+          "Type": "Compiled:Twenty57.Linx.Plugins.Rest.OpenAPIWebService.OpenAPI.Data.Out.HttpContext, Twenty57.Linx.Plugins.Rest, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "Response200",
+          "Name": "Response200",
+          "Type": "List:Generated:cQFY",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "ResponseXXX",
+          "Name": "ResponseXXX",
+          "Type": "Compiled:Object",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "cQFY",
+      "Properties": [
+        {
+          "Id": "id",
+          "Name": "id",
+          "Type": "Compiled:Int32",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "stock",
+          "Name": "stock",
+          "Type": "Compiled:Int32",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "buy",
+          "Name": "buy",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "sell",
+          "Name": "sell",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "name",
+          "Name": "name",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "price",
+          "Name": "price",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "netvar",
+          "Name": "netvar",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "WjzP",
+      "Properties": [
+        {
+          "Id": "HttpContext",
+          "Name": "HttpContext",
+          "Type": "Compiled:Twenty57.Linx.Plugins.Rest.OpenAPIWebService.OpenAPI.Data.Out.HttpContext, Twenty57.Linx.Plugins.Rest, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "Response200",
+          "Name": "Response200",
+          "Type": "Generated:QVpA",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "ResponseXXX",
+          "Name": "ResponseXXX",
+          "Type": "Compiled:Object",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "QVpA",
+      "Properties": [
+        {
+          "Id": "user",
+          "Name": "user",
+          "Type": "Generated:V6BM",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "V6BM",
+      "Properties": [
+        {
+          "Id": "email",
+          "Name": "email",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "username",
+          "Name": "username",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "id",
+          "Name": "id",
+          "Type": "Compiled:Int32",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "firstname",
+          "Name": "firstname",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "lastname",
+          "Name": "lastname",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "api_key",
+          "Name": "api_key",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "vwUD",
+      "Properties": [
+        {
+          "Id": "HttpContext",
+          "Name": "HttpContext",
+          "Type": "Compiled:Twenty57.Linx.Plugins.Rest.OpenAPIWebService.OpenAPI.Data.Out.HttpContext, Twenty57.Linx.Plugins.Rest, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "Response200",
+          "Name": "Response200",
+          "Type": "Generated:44TK",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "Response422",
+          "Name": "Response422",
+          "Type": "Generated:w3y8",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "ResponseXXX",
+          "Name": "ResponseXXX",
+          "Type": "Compiled:Object",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "44TK",
+      "Properties": [
+        {
+          "Id": "id",
+          "Name": "id",
+          "Type": "Compiled:Int32",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "notification",
+          "Name": "notification",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "updated_time",
+          "Name": "updated_time",
+          "Type": "Compiled:DateTime",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "w3y8",
+      "Properties": [
+        {
+          "Id": "summary",
+          "Name": "summary",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "errors",
+          "Name": "errors",
+          "Type": "List:Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "Ojen",
+      "Properties": [
+        {
+          "Id": "HttpContext",
+          "Name": "HttpContext",
+          "Type": "Compiled:Twenty57.Linx.Plugins.Rest.OpenAPIWebService.OpenAPI.Data.Out.HttpContext, Twenty57.Linx.Plugins.Rest, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "Response200",
+          "Name": "Response200",
+          "Type": "List:Generated:blvU",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "ResponseXXX",
+          "Name": "ResponseXXX",
+          "Type": "Compiled:Object",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "blvU",
+      "Properties": [
+        {
+          "Id": "id",
+          "Name": "id",
+          "Type": "Compiled:Int32",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "notification",
+          "Name": "notification",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "updated_time",
+          "Name": "updated_time",
+          "Type": "Compiled:DateTime",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "6vff",
+      "Properties": [
+        {
+          "Id": "HttpContext",
+          "Name": "HttpContext",
+          "Type": "Compiled:Twenty57.Linx.Plugins.Rest.OpenAPIWebService.OpenAPI.Data.Out.HttpContext, Twenty57.Linx.Plugins.Rest, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "Response200",
+          "Name": "Response200",
+          "Type": "Generated:HY3g",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "Response422",
+          "Name": "Response422",
+          "Type": "Generated:XENe",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "ResponseXXX",
+          "Name": "ResponseXXX",
+          "Type": "Compiled:Object",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "HY3g",
+      "Properties": [
+        {
+          "Id": "id",
+          "Name": "id",
+          "Type": "Compiled:Int32",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "name",
+          "Name": "name",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "price",
+          "Name": "price",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "netvar",
+          "Name": "netvar",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "qty",
+          "Name": "qty",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "XENe",
+      "Properties": [
+        {
+          "Id": "summary",
+          "Name": "summary",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "errors",
+          "Name": "errors",
+          "Type": "List:Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "s5yV",
+      "Properties": [
+        {
+          "Id": "HttpContext",
+          "Name": "HttpContext",
+          "Type": "Compiled:Twenty57.Linx.Plugins.Rest.OpenAPIWebService.OpenAPI.Data.Out.HttpContext, Twenty57.Linx.Plugins.Rest, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "Response200",
+          "Name": "Response200",
+          "Type": "List:Generated:APcj",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "ResponseXXX",
+          "Name": "ResponseXXX",
+          "Type": "Compiled:Object",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "APcj",
+      "Properties": [
+        {
+          "Id": "id",
+          "Name": "id",
+          "Type": "Compiled:Int32",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "name",
+          "Name": "name",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "price",
+          "Name": "price",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "netvar",
+          "Name": "netvar",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "qty",
+          "Name": "qty",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "87Gd",
+      "Properties": [
+        {
+          "Id": "HttpContext",
+          "Name": "HttpContext",
+          "Type": "Compiled:Twenty57.Linx.Plugins.Rest.OpenAPIWebService.OpenAPI.Data.Out.HttpContext, Twenty57.Linx.Plugins.Rest, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "Response200",
+          "Name": "Response200",
+          "Type": "Generated:gDi1",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "Response422",
+          "Name": "Response422",
+          "Type": "Generated:yViw",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "ResponseXXX",
+          "Name": "ResponseXXX",
+          "Type": "Compiled:Object",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "gDi1",
+      "Properties": [
+        {
+          "Id": "stock",
+          "Name": "stock",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "price",
+          "Name": "price",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "netvar",
+          "Name": "netvar",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "updated_time",
+          "Name": "updated_time",
+          "Type": "Compiled:DateTime",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "yViw",
+      "Properties": [
+        {
+          "Id": "summary",
+          "Name": "summary",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "errors",
+          "Name": "errors",
+          "Type": "List:Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "r9ld",
+      "Properties": [
+        {
+          "Id": "HttpContext",
+          "Name": "HttpContext",
+          "Type": "Compiled:Twenty57.Linx.Plugins.Rest.OpenAPIWebService.OpenAPI.Data.Out.HttpContext, Twenty57.Linx.Plugins.Rest, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "Response200",
+          "Name": "Response200",
+          "Type": "List:Generated:k3bD",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "ResponseXXX",
+          "Name": "ResponseXXX",
+          "Type": "Compiled:Object",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "k3bD",
+      "Properties": [
+        {
+          "Id": "stock",
+          "Name": "stock",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "price",
+          "Name": "price",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "netvar",
+          "Name": "netvar",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "updated_time",
+          "Name": "updated_time",
+          "Type": "Compiled:DateTime",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "M2YB",
+      "Properties": [
+        {
+          "Id": "HttpContext",
+          "Name": "HttpContext",
+          "Type": "Compiled:Twenty57.Linx.Plugins.Rest.OpenAPIWebService.OpenAPI.Data.Out.HttpContext, Twenty57.Linx.Plugins.Rest, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "Response200",
+          "Name": "Response200",
+          "Type": "Generated:l328",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "Response422",
+          "Name": "Response422",
+          "Type": "Generated:DiaV",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "ResponseXXX",
+          "Name": "ResponseXXX",
+          "Type": "Compiled:Object",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "l328",
+      "Properties": [
+        {
+          "Id": "name",
+          "Name": "name",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "price",
+          "Name": "price",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "prev_price",
+          "Name": "prev_price",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "netvar",
+          "Name": "netvar",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "change",
+          "Name": "change",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "beta",
+          "Name": "beta",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "volume",
+          "Name": "volume",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "updated_time",
+          "Name": "updated_time",
+          "Type": "Compiled:DateTime",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "DiaV",
+      "Properties": [
+        {
+          "Id": "summary",
+          "Name": "summary",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "errors",
+          "Name": "errors",
+          "Type": "List:Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "MPm7",
+      "Properties": [
+        {
+          "Id": "HttpContext",
+          "Name": "HttpContext",
+          "Type": "Compiled:Twenty57.Linx.Plugins.Rest.OpenAPIWebService.OpenAPI.Data.Out.HttpContext, Twenty57.Linx.Plugins.Rest, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "Response200",
+          "Name": "Response200",
+          "Type": "List:Generated:MdEv",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "ResponseXXX",
+          "Name": "ResponseXXX",
+          "Type": "Compiled:Object",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "MdEv",
+      "Properties": [
+        {
+          "Id": "name",
+          "Name": "name",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "price",
+          "Name": "price",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "prev_price",
+          "Name": "prev_price",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "netvar",
+          "Name": "netvar",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "change",
+          "Name": "change",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "beta",
+          "Name": "beta",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "volume",
+          "Name": "volume",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "id",
+          "Name": "id",
+          "Type": "Compiled:Int32",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "zMoM",
+      "Properties": [
+        {
+          "Id": "HttpContext",
+          "Name": "HttpContext",
+          "Type": "Compiled:Twenty57.Linx.Plugins.Rest.OpenAPIWebService.OpenAPI.Data.Out.HttpContext, Twenty57.Linx.Plugins.Rest, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "Response200",
+          "Name": "Response200",
+          "Type": "Generated:dDdi",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "Response422",
+          "Name": "Response422",
+          "Type": "Generated:tnU1",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "ResponseXXX",
+          "Name": "ResponseXXX",
+          "Type": "Compiled:Object",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "dDdi",
+      "Properties": [
+        {
+          "Id": "user",
+          "Name": "user",
+          "Type": "Generated:oRTC",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "oRTC",
+      "Properties": [
+        {
+          "Id": "email",
+          "Name": "email",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "username",
+          "Name": "username",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "id",
+          "Name": "id",
+          "Type": "Compiled:Int32",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "firstname",
+          "Name": "firstname",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "lastname",
+          "Name": "lastname",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "api_key",
+          "Name": "api_key",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "tnU1",
+      "Properties": [
+        {
+          "Id": "summary",
+          "Name": "summary",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "errors",
+          "Name": "errors",
+          "Type": "List:Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "g8Xy",
+      "Properties": [
+        {
+          "Id": "HttpContext",
+          "Name": "HttpContext",
+          "Type": "Compiled:Twenty57.Linx.Plugins.Rest.OpenAPIWebService.OpenAPI.Data.Out.HttpContext, Twenty57.Linx.Plugins.Rest, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "Response200",
+          "Name": "Response200",
+          "Type": "List:Generated:Vfo8",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "ResponseXXX",
+          "Name": "ResponseXXX",
+          "Type": "Compiled:Object",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "Vfo8",
+      "Properties": [
+        {
+          "Id": "email",
+          "Name": "email",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "username",
+          "Name": "username",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "id",
+          "Name": "id",
+          "Type": "Compiled:Int32",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "firstname",
+          "Name": "firstname",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "lastname",
+          "Name": "lastname",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "api_key",
+          "Name": "api_key",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "luzk",
+      "Properties": [
+        {
+          "Id": "user",
+          "Name": "user",
+          "Type": "Generated:j5wf",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "j5wf",
+      "Properties": [
+        {
+          "Id": "email",
+          "Name": "email",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "password",
+          "Name": "password",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "BRnL",
+      "Properties": [
+        {
+          "Id": "HttpContext",
+          "Name": "HttpContext",
+          "Type": "Compiled:Twenty57.Linx.Plugins.Rest.OpenAPIWebService.OpenAPI.Data.Out.HttpContext, Twenty57.Linx.Plugins.Rest, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "Response200",
+          "Name": "Response200",
+          "Type": "Generated:prIk",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "Response422",
+          "Name": "Response422",
+          "Type": "Generated:TMy8",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "ResponseXXX",
+          "Name": "ResponseXXX",
+          "Type": "Compiled:Object",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "prIk",
+      "Properties": [
+        {
+          "Id": "user",
+          "Name": "user",
+          "Type": "Generated:aqhs",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "aqhs",
+      "Properties": [
+        {
+          "Id": "email",
+          "Name": "email",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "username",
+          "Name": "username",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "id",
+          "Name": "id",
+          "Type": "Compiled:Int32",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "firstname",
+          "Name": "firstname",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "lastname",
+          "Name": "lastname",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "api_key",
+          "Name": "api_key",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "TMy8",
+      "Properties": [
+        {
+          "Id": "summary",
+          "Name": "summary",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "errors",
+          "Name": "errors",
+          "Type": "List:Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "muQ3",
+      "Properties": [
+        {
+          "Id": "analystic",
+          "Name": "analystic",
+          "Type": "Generated:xyMi",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "xyMi",
+      "Properties": [
+        {
+          "Id": "stock",
+          "Name": "stock",
+          "Type": "Compiled:Int32",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "buy",
+          "Name": "buy",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "sell",
+          "Name": "sell",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "IbgX",
+      "Properties": [
+        {
+          "Id": "HttpContext",
+          "Name": "HttpContext",
+          "Type": "Compiled:Twenty57.Linx.Plugins.Rest.OpenAPIWebService.OpenAPI.Data.Out.HttpContext, Twenty57.Linx.Plugins.Rest, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "Response422",
+          "Name": "Response422",
+          "Type": "Generated:ZgZu",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "ResponseXXX",
+          "Name": "ResponseXXX",
+          "Type": "Compiled:Object",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "ZgZu",
+      "Properties": [
+        {
+          "Id": "summary",
+          "Name": "summary",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "errors",
+          "Name": "errors",
+          "Type": "List:Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "0Znw",
+      "Properties": [
+        {
+          "Id": "qty",
+          "Name": "qty",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "X2eN",
+      "Properties": [
+        {
+          "Id": "HttpContext",
+          "Name": "HttpContext",
+          "Type": "Compiled:Twenty57.Linx.Plugins.Rest.OpenAPIWebService.OpenAPI.Data.Out.HttpContext, Twenty57.Linx.Plugins.Rest, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "Response422",
+          "Name": "Response422",
+          "Type": "Generated:zilP",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "ResponseXXX",
+          "Name": "ResponseXXX",
+          "Type": "Compiled:Object",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "zilP",
+      "Properties": [
+        {
+          "Id": "summary",
+          "Name": "summary",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "errors",
+          "Name": "errors",
+          "Type": "List:Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "o1PR",
+      "Properties": [
+        {
+          "Id": "name",
+          "Name": "name",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "price",
+          "Name": "price",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "prev_price",
+          "Name": "prev_price",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "netvar",
+          "Name": "netvar",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "change",
+          "Name": "change",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "beta",
+          "Name": "beta",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "volume",
+          "Name": "volume",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "updated_time",
+          "Name": "updated_time",
+          "Type": "Compiled:DateTime",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "SsI2",
+      "Properties": [
+        {
+          "Id": "HttpContext",
+          "Name": "HttpContext",
+          "Type": "Compiled:Twenty57.Linx.Plugins.Rest.OpenAPIWebService.OpenAPI.Data.Out.HttpContext, Twenty57.Linx.Plugins.Rest, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "Response422",
+          "Name": "Response422",
+          "Type": "Generated:HDV9",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "ResponseXXX",
+          "Name": "ResponseXXX",
+          "Type": "Compiled:Object",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "HDV9",
+      "Properties": [
+        {
+          "Id": "summary",
+          "Name": "summary",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "errors",
+          "Name": "errors",
+          "Type": "List:Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "Af7S",
+      "Properties": [
+        {
+          "Id": "user",
+          "Name": "user",
+          "Type": "Generated:ZPdd",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "ZPdd",
+      "Properties": [
+        {
+          "Id": "email",
+          "Name": "email",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "firstname",
+          "Name": "firstname",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "lastname",
+          "Name": "lastname",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "6AeM",
+      "Properties": [
+        {
+          "Id": "HttpContext",
+          "Name": "HttpContext",
+          "Type": "Compiled:Twenty57.Linx.Plugins.Rest.OpenAPIWebService.OpenAPI.Data.Out.HttpContext, Twenty57.Linx.Plugins.Rest, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "Response422",
+          "Name": "Response422",
+          "Type": "Generated:Sdgt",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "ResponseXXX",
+          "Name": "ResponseXXX",
+          "Type": "Compiled:Object",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "Sdgt",
+      "Properties": [
+        {
+          "Id": "summary",
+          "Name": "summary",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "errors",
+          "Name": "errors",
+          "Type": "List:Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "yIQt",
+      "Properties": [
+        {
+          "Id": "stocks",
+          "Name": "stocks",
+          "Type": "List:Generated:Od58",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "Od58",
+      "Properties": [
+        {
+          "Id": "name",
+          "Name": "name",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "price",
+          "Name": "price",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "prev_price",
+          "Name": "prev_price",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "netvar",
+          "Name": "netvar",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "change",
+          "Name": "change",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "beta",
+          "Name": "beta",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "volume",
+          "Name": "volume",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "updated_time",
+          "Name": "updated_time",
+          "Type": "Compiled:DateTime",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "xKms",
+      "Properties": [
+        {
+          "Id": "HttpContext",
+          "Name": "HttpContext",
+          "Type": "Compiled:Twenty57.Linx.Plugins.Rest.OpenAPIWebService.OpenAPI.Data.Out.HttpContext, Twenty57.Linx.Plugins.Rest, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "Response400",
+          "Name": "Response400",
+          "Type": "Generated:qikt",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "ResponseXXX",
+          "Name": "ResponseXXX",
+          "Type": "Compiled:Object",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "qikt",
+      "Properties": [
+        {
+          "Id": "summary",
+          "Name": "summary",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "errors",
+          "Name": "errors",
+          "Type": "List:Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  }
+]

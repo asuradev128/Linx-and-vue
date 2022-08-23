@@ -1,0 +1,90 @@
+{
+  "ExecutionPaths": [
+    {
+      "PluginId": "ForEachRow",
+      "Name": "ForEachRow",
+      "Result": "Generated:aFPP",
+      "Order": 0,
+      "IterationHint": "ZeroOrMore"
+    }
+  ],
+  "Properties": [
+    {
+      "Id": "Connection string",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "$.Settings.db_conn",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Connection type",
+      "Type": "Compiled:Twenty57.Linx.Plugins.Database.Common.Sql.ConnectionTypeSelection, Twenty57.Linx.Plugins.Database, Version=1.0.6.0, Culture=neutral, PublicKeyToken=null",
+      "ValueUsage": "DesignTime",
+      "Value": "SqlServer"
+    },
+    {
+      "Id": "Result type",
+      "Type": "Compiled:Twenty57.Linx.Plugins.Database.ExecuteSQL.ResultType, Twenty57.Linx.Plugins.Database, Version=1.0.6.0, Culture=neutral, PublicKeyToken=null",
+      "ValueUsage": "DesignTime",
+      "Value": {
+        "CustomType": null,
+        "Fields": [
+          {
+            "ColumnName": "id",
+            "Name": "id",
+            "TypeReference": "Compiled:Int64"
+          },
+          {
+            "ColumnName": "name",
+            "Name": "name",
+            "TypeReference": "Compiled:String"
+          },
+          {
+            "ColumnName": "price",
+            "Name": "price",
+            "TypeReference": "Compiled:Double"
+          },
+          {
+            "ColumnName": "netvar",
+            "Name": "netvar",
+            "TypeReference": "Compiled:Double"
+          },
+          {
+            "ColumnName": "buy",
+            "Name": "buy",
+            "TypeReference": "Compiled:Double"
+          },
+          {
+            "ColumnName": "sell",
+            "Name": "sell",
+            "TypeReference": "Compiled:Double"
+          }
+        ],
+        "IsCustomType": false
+      }
+    },
+    {
+      "Id": "Return options",
+      "Type": "Compiled:Twenty57.Linx.Plugins.Database.ExecuteSQL.ReturnModeType, Twenty57.Linx.Plugins.Database, Version=1.0.6.0, Culture=neutral, PublicKeyToken=null",
+      "ValueUsage": "DesignTime",
+      "Value": "RowByRow"
+    },
+    {
+      "Id": "SQL",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": "SELECT \r\ndbo.api_stock.id,\r\ndbo.api_stock.name,\r\ndbo.api_stock.price,\r\ndbo.api_stock.netvar,\r\ndbo.api_analystic.buy,\r\ndbo.api_analystic.sell\r\nFROM dbo.api_analystic\r\nINNER JOIN dbo.api_stock\r\nON dbo.api_analystic.stock = dbo.api_stock.id"
+    },
+    {
+      "Id": "Timeout",
+      "Type": "Compiled:Int32",
+      "ValueUsage": "DesignTime",
+      "Value": 60
+    }
+  ],
+  "Version": "2"
+}

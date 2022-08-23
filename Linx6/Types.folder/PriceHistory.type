@@ -1,0 +1,31 @@
+{
+  "Id": "walr",
+  "Name": "PriceHistory",
+  "Properties": [
+    {
+      "Id": "aXDk",
+      "Name": "id",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "v50v",
+      "Name": "price",
+      "Type": "Compiled:Double"
+    },
+    {
+      "Id": "lAaU",
+      "Name": "stock",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "nRQu",
+      "Name": "updated_time",
+      "Type": "Compiled:DateTime"
+    },
+    {
+      "Id": "YvDj",
+      "Name": "netvar",
+      "Type": "Compiled:Double"
+    }
+  ]
+}

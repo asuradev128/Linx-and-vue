@@ -1,0 +1,58 @@
+[
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "VDix",
+      "Properties": [
+        {
+          "Id": "id",
+          "Name": "id",
+          "Type": "Compiled:Int64",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "name",
+          "Name": "name",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "price",
+          "Name": "price",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "prev_price",
+          "Name": "prev_price",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "netvar",
+          "Name": "netvar",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "change",
+          "Name": "change",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "beta",
+          "Name": "beta",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "volume",
+          "Name": "volume",
+          "Type": "Compiled:Double",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  }
+]

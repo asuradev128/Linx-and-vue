@@ -1,0 +1,122 @@
+{
+  "Properties": [
+    {
+      "Id": "Source",
+      "Type": "Generated:BRnL",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "ParsedExpression": "{\"HttpContext\":{\"StatusCode\":200,\"User\":{\"Name\":{\"LinxExpression\":\"[PARSED]\"},\"AuthenticationType\":{\"LinxExpression\":\"[PARSED]\"},\"IsAuthenticated\":true}}, \"Response200\":{\"user\":{\"email\":{\"LinxExpression\":\"[PARSED]\"}, \"username\":{\"LinxExpression\":\"[PARSED]\"}, \"id\":{\"LinxExpression\":\"[PARSED]\"}, \"firstname\":{\"LinxExpression\":\"[PARSED]\"}, \"lastname\":{\"LinxExpression\":\"[PARSED]\"}, \"api_key\":{\"LinxExpression\":\"[PARSED]\"}}}}",
+        "ExpressionPlaceholders": [
+          {
+            "typePath": [
+              "HttpContext",
+              "User",
+              "Name"
+            ],
+            "expression": {
+              "Expression": "GetUserByLogin.id",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:Int64"
+            }
+          },
+          {
+            "typePath": [
+              "HttpContext",
+              "User",
+              "AuthenticationType"
+            ],
+            "expression": {
+              "Expression": "generateToken",
+              "CompiledExpression": "={0}",
+              "Type": "Custom:UGme"
+            }
+          },
+          {
+            "typePath": [
+              "Response200",
+              "user",
+              "email"
+            ],
+            "expression": {
+              "Expression": "GetUserByLogin.email",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          },
+          {
+            "typePath": [
+              "Response200",
+              "user",
+              "username"
+            ],
+            "expression": {
+              "Expression": "GetUserByLogin.username",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          },
+          {
+            "typePath": [
+              "Response200",
+              "user",
+              "id"
+            ],
+            "expression": {
+              "Expression": "GetUserByLogin.id",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:Int64"
+            }
+          },
+          {
+            "typePath": [
+              "Response200",
+              "user",
+              "firstname"
+            ],
+            "expression": {
+              "Expression": "GetUserByLogin.firstname",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          },
+          {
+            "typePath": [
+              "Response200",
+              "user",
+              "lastname"
+            ],
+            "expression": {
+              "Expression": "GetUserByLogin.lastname",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          },
+          {
+            "typePath": [
+              "Response200",
+              "user",
+              "api_key"
+            ],
+            "expression": {
+              "Expression": "GetUserByLogin.api_key",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          }
+        ]
+      },
+      "ValueType": "Linx.JsonExpression"
+    },
+    {
+      "Id": "Target",
+      "Type": "Generated:BRnL",
+      "ValueUsage": "RuntimeWrite",
+      "Value": {
+        "Expression": "$.Result",
+        "CompiledExpression": "={0}",
+        "Type": "Generated:BRnL"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "Id": "GSa4",
+  "Name": "httpContext",
+  "Properties": [
+    {
+      "Id": "sumL",
+      "Name": "ActionName",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "Ck1D",
+      "Name": "QueryString",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "3KNY",
+      "Name": "ContentType",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "0zHz",
+      "Name": "ContentLength",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "tpDp",
+      "Name": "Cookies",
+      "Type": "List:Compiled:String"
+    },
+    {
+      "Id": "oCBp",
+      "Name": "Headers",
+      "Type": "List:Custom:6AB7"
+    },
+    {
+      "Id": "tQfK",
+      "Name": "Protocol",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "n4p7",
+      "Name": "Query",
+      "Type": "List:Compiled:String"
+    },
+    {
+      "Id": "1Hxd",
+      "Name": "Path",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "vmfK",
+      "Name": "PathBase",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "E1ar",
+      "Name": "Host",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "BIQ5",
+      "Name": "IsHttps",
+      "Type": "Compiled:Boolean"
+    },
+    {
+      "Id": "UqRd",
+      "Name": "Scheme",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "J5qX",
+      "Name": "Method",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "GzdP",
+      "Name": "User",
+      "Type": "Custom:ujDO"
+    },
+    {
+      "Id": "T2bw",
+      "Name": "Items",
+      "Type": "List:Custom:vLT5"
+    },
+    {
+      "Id": "WBiX",
+      "Name": "Connection",
+      "Type": "Custom:lArh"
+    },
+    {
+      "Id": "IUbP",
+      "Name": "Body",
+      "Type": "Compiled:String"
+    }
+  ]
+}

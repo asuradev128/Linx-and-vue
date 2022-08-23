@@ -1,0 +1,36 @@
+{
+  "Properties": [
+    {
+      "Id": "Source",
+      "Type": "Custom:ujDO",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "ParsedExpression": "{\"Name\":{\"LinxExpression\":\"[PARSED]\"}, \"AuthenticationType\":\"Basic\", \"IsAuthenticated\":true}",
+        "ExpressionPlaceholders": [
+          {
+            "typePath": [
+              "Name"
+            ],
+            "expression": {
+              "Expression": "SearchUserMatch.id",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:Int64"
+            }
+          }
+        ]
+      },
+      "ValueType": "Linx.JsonExpression"
+    },
+    {
+      "Id": "Target",
+      "Type": "Custom:ujDO",
+      "ValueUsage": "RuntimeWrite",
+      "Value": {
+        "Expression": "$.Result",
+        "CompiledExpression": "={0}",
+        "Type": "Custom:ujDO"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ]
+}

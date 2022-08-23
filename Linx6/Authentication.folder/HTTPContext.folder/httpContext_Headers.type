@@ -1,0 +1,16 @@
+{
+  "Id": "6AB7",
+  "Name": "httpContext_Headers",
+  "Properties": [
+    {
+      "Id": "4j2l",
+      "Name": "Key",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "60rR",
+      "Name": "Value",
+      "Type": "List:Compiled:String"
+    }
+  ]
+}

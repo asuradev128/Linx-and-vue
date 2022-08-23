@@ -1,0 +1,36 @@
+{
+  "Id": "saUz",
+  "Name": "User",
+  "Properties": [
+    {
+      "Id": "051u",
+      "Name": "id",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "XrIg",
+      "Name": "username",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "diR6",
+      "Name": "firstname",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "eCqu",
+      "Name": "lastname",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "G1iB",
+      "Name": "email",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "xDQ6",
+      "Name": "api_key",
+      "Type": "Compiled:String"
+    }
+  ]
+}

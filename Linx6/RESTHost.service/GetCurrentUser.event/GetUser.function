@@ -1,0 +1,93 @@
+{
+  "Properties": [
+    {
+      "Id": "Connection string",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "$.Settings.db_conn",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Connection type",
+      "Type": "Compiled:Twenty57.Linx.Plugins.Database.Common.Sql.ConnectionTypeSelection, Twenty57.Linx.Plugins.Database, Version=1.0.6.0, Culture=neutral, PublicKeyToken=null",
+      "ValueUsage": "DesignTime",
+      "Value": "SqlServer"
+    },
+    {
+      "Id": "Expression0",
+      "Type": "Compiled:Object",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "$.Parameters.HttpContext.User.Name",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Result type",
+      "Type": "Compiled:Twenty57.Linx.Plugins.Database.ExecuteSQL.ResultType, Twenty57.Linx.Plugins.Database, Version=1.0.6.0, Culture=neutral, PublicKeyToken=null",
+      "ValueUsage": "DesignTime",
+      "Value": {
+        "CustomType": null,
+        "Fields": [
+          {
+            "ColumnName": "id",
+            "Name": "id",
+            "TypeReference": "Compiled:Int64"
+          },
+          {
+            "ColumnName": "username",
+            "Name": "username",
+            "TypeReference": "Compiled:String"
+          },
+          {
+            "ColumnName": "email",
+            "Name": "email",
+            "TypeReference": "Compiled:String"
+          },
+          {
+            "ColumnName": "first_name",
+            "Name": "first_name",
+            "TypeReference": "Compiled:String"
+          },
+          {
+            "ColumnName": "last_name",
+            "Name": "last_name",
+            "TypeReference": "Compiled:String"
+          },
+          {
+            "ColumnName": "api_key",
+            "Name": "api_key",
+            "TypeReference": "Compiled:String"
+          }
+        ],
+        "IsCustomType": true
+      }
+    },
+    {
+      "Id": "Return options",
+      "Type": "Compiled:Twenty57.Linx.Plugins.Database.ExecuteSQL.ReturnModeType, Twenty57.Linx.Plugins.Database, Version=1.0.6.0, Culture=neutral, PublicKeyToken=null",
+      "ValueUsage": "DesignTime",
+      "Value": "FirstRowElseNull"
+    },
+    {
+      "Id": "SQL",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": "SELECT\r\n   id,\r\n   username,\r\n   email,\r\n   first_name,\r\n   last_name\r\n   ,api_key\r\nFROM\r\n   [api_user] \r\nWHERE\r\n   username = @{$.Parameters.HttpContext.User.Name}"
+    },
+    {
+      "Id": "Timeout",
+      "Type": "Compiled:Int32",
+      "ValueUsage": "DesignTime",
+      "Value": 60
+    }
+  ],
+  "Result": "Generated:YRcI",
+  "Version": "2"
+}

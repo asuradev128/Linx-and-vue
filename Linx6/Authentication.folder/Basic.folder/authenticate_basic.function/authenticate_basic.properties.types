@@ -1,0 +1,16 @@
+[
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "IDqC",
+      "Properties": [
+        {
+          "Id": "Zd6G",
+          "Name": "authorizationHeaderValue",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  }
+]

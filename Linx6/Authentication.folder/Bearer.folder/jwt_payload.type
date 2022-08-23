@@ -1,0 +1,46 @@
+{
+  "Id": "ByNk",
+  "Name": "jwt_payload",
+  "Properties": [
+    {
+      "Id": "sGO5",
+      "Name": "iss",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "0Kqs",
+      "Name": "sub",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "2yT7",
+      "Name": "aud",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "nFot",
+      "Name": "exp",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "9BGF",
+      "Name": "nbf",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "9TuE",
+      "Name": "iat",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "VjhX",
+      "Name": "jti",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "rWKU",
+      "Name": "unique_name",
+      "Type": "Compiled:String"
+    }
+  ]
+}

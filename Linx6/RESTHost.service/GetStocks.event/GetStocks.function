@@ -1,0 +1,100 @@
+{
+  "ExecutionPaths": [
+    {
+      "PluginId": "ForEachRow",
+      "Name": "ForEachRow",
+      "Result": "Generated:YxDw",
+      "Order": 0,
+      "IterationHint": "ZeroOrMore"
+    }
+  ],
+  "Properties": [
+    {
+      "Id": "Connection string",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "$.Settings.db_conn",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Connection type",
+      "Type": "Compiled:Twenty57.Linx.Plugins.Database.Common.Sql.ConnectionTypeSelection, Twenty57.Linx.Plugins.Database, Version=1.0.6.0, Culture=neutral, PublicKeyToken=null",
+      "ValueUsage": "DesignTime",
+      "Value": "SqlServer"
+    },
+    {
+      "Id": "Result type",
+      "Type": "Compiled:Twenty57.Linx.Plugins.Database.ExecuteSQL.ResultType, Twenty57.Linx.Plugins.Database, Version=1.0.6.0, Culture=neutral, PublicKeyToken=null",
+      "ValueUsage": "DesignTime",
+      "Value": {
+        "CustomType": null,
+        "Fields": [
+          {
+            "ColumnName": "id",
+            "Name": "id",
+            "TypeReference": "Compiled:Int64"
+          },
+          {
+            "ColumnName": "name",
+            "Name": "name",
+            "TypeReference": "Compiled:String"
+          },
+          {
+            "ColumnName": "price",
+            "Name": "price",
+            "TypeReference": "Compiled:Double"
+          },
+          {
+            "ColumnName": "prev_price",
+            "Name": "prev_price",
+            "TypeReference": "Compiled:Double"
+          },
+          {
+            "ColumnName": "netvar",
+            "Name": "netvar",
+            "TypeReference": "Compiled:Double"
+          },
+          {
+            "ColumnName": "change",
+            "Name": "change",
+            "TypeReference": "Compiled:Double"
+          },
+          {
+            "ColumnName": "beta",
+            "Name": "beta",
+            "TypeReference": "Compiled:Double"
+          },
+          {
+            "ColumnName": "volume",
+            "Name": "volume",
+            "TypeReference": "Compiled:Double"
+          }
+        ],
+        "IsCustomType": false
+      }
+    },
+    {
+      "Id": "Return options",
+      "Type": "Compiled:Twenty57.Linx.Plugins.Database.ExecuteSQL.ReturnModeType, Twenty57.Linx.Plugins.Database, Version=1.0.6.0, Culture=neutral, PublicKeyToken=null",
+      "ValueUsage": "DesignTime",
+      "Value": "RowByRow"
+    },
+    {
+      "Id": "SQL",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": "SELECT *\r\nFROM dbo.api_stock"
+    },
+    {
+      "Id": "Timeout",
+      "Type": "Compiled:Int32",
+      "ValueUsage": "DesignTime",
+      "Value": 60
+    }
+  ],
+  "Version": "2"
+}

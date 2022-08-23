@@ -1,0 +1,103 @@
+{
+  "Properties": [
+    {
+      "Id": "Source",
+      "Type": "Generated:M2YB",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "ParsedExpression": "{\"HttpContext\":{\"StatusCode\":200}, \"Response200\":{\"name\":{\"LinxExpression\":\"[PARSED]\"}, \"price\":{\"LinxExpression\":\"[PARSED]\"}, \"prev_price\":{\"LinxExpression\":\"[PARSED]\"}, \"netvar\":{\"LinxExpression\":\"[PARSED]\"}, \"change\":{\"LinxExpression\":\"[PARSED]\"}, \"beta\":{\"LinxExpression\":\"[PARSED]\"}, \"volume\":{\"LinxExpression\":\"[PARSED]\"}}}",
+        "ExpressionPlaceholders": [
+          {
+            "typePath": [
+              "Response200",
+              "name"
+            ],
+            "expression": {
+              "Expression": "GetStockByID.name",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          },
+          {
+            "typePath": [
+              "Response200",
+              "price"
+            ],
+            "expression": {
+              "Expression": "GetStockByID.price",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:Double"
+            }
+          },
+          {
+            "typePath": [
+              "Response200",
+              "prev_price"
+            ],
+            "expression": {
+              "Expression": "GetStockByID.prev_price",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:Double"
+            }
+          },
+          {
+            "typePath": [
+              "Response200",
+              "netvar"
+            ],
+            "expression": {
+              "Expression": "GetStockByID.netvar",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:Double"
+            }
+          },
+          {
+            "typePath": [
+              "Response200",
+              "change"
+            ],
+            "expression": {
+              "Expression": "GetStockByID.change",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:Double"
+            }
+          },
+          {
+            "typePath": [
+              "Response200",
+              "beta"
+            ],
+            "expression": {
+              "Expression": "GetStockByID.beta",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:Double"
+            }
+          },
+          {
+            "typePath": [
+              "Response200",
+              "volume"
+            ],
+            "expression": {
+              "Expression": "GetStockByID.volume",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:Double"
+            }
+          }
+        ]
+      },
+      "ValueType": "Linx.JsonExpression"
+    },
+    {
+      "Id": "Target",
+      "Type": "Generated:M2YB",
+      "ValueUsage": "RuntimeWrite",
+      "Value": {
+        "Expression": "$.Result",
+        "CompiledExpression": "={0}",
+        "Type": "Generated:M2YB"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ]
+}
